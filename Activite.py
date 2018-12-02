@@ -2,6 +2,7 @@ import datetime
 import schedule
 import winsound
 import threading
+
 class Activite(object):
     #DONE
     """
@@ -55,7 +56,7 @@ class Activite(object):
         self.f.close()
     #DONE
     def check(self,key):
-        winsound.PlaySound("E:\Projet\Schedule-Python\sound/Cop Car Siren-SoundBible.com-1231381021.wav",winsound.SND_FILENAME|winsound.SND_LOOP|winsound.SND_ASYNC)
+        winsound.PlaySound("E:\Projet\Schedule-Python\sound/Fire Alarm-SoundBible.com-78848779.wav",winsound.SND_FILENAME|winsound.SND_LOOP|winsound.SND_ASYNC)
         key.wait()
     #DONE
     def checko(self,key):
